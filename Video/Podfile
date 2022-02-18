@@ -1,0 +1,7 @@
+platform :'ios', '12.0'
+# ignore all warnings from all pods
+inhibit_all_warnings!
+target 'Video' do
+pod 'Masonry'
+end
+
