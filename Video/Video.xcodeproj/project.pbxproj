@@ -17,6 +17,7 @@
 		41B435E226EC37E0004886EB /* UploadVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B435E126EC37E0004886EB /* UploadVideoView.m */; };
 		41B435E526EC3B40004886EB /* CFToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B435E426EC3B40004886EB /* CFToolClass.m */; };
 		41B435E826EC3F60004886EB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B435E626EC3F60004886EB /* UIView+Extension.m */; };
+		424B487B27BF2D1F004B8F69 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 424B487A27BF2D1F004B8F69 /* 1.png */; };
 		8DE24C8EA2C9897CC3B5D523 /* libPods-Video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C0E323BE7E9F39C6894127 /* libPods-Video.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		41B435E426EC3B40004886EB /* CFToolClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFToolClass.m; sourceTree = "<group>"; };
 		41B435E626EC3F60004886EB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		41B435E726EC3F60004886EB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		424B487A27BF2D1F004B8F69 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		60F9616203A0FE2C6B73DACD /* Pods-Video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video.release.xcconfig"; path = "Target Support Files/Pods-Video/Pods-Video.release.xcconfig"; sourceTree = "<group>"; };
 		B4C0E323BE7E9F39C6894127 /* libPods-Video.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Video.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55EE76609C0CF4D435DA275 /* Pods-Video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video.debug.xcconfig"; path = "Target Support Files/Pods-Video/Pods-Video.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		41B435C626EC341B004886EB /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				424B487927BF2D1F004B8F69 /* Picture */,
 				41B435C726EC341B004886EB /* AppDelegate.h */,
 				41B435C826EC341B004886EB /* AppDelegate.m */,
 				41B435CA26EC341B004886EB /* SceneDelegate.h */,
@@ -96,6 +99,14 @@
 				41B435D926EC341C004886EB /* main.m */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		424B487927BF2D1F004B8F69 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				424B487A27BF2D1F004B8F69 /* 1.png */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		789867B9D8009DA7F21D514A /* Frameworks */ = {
@@ -173,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B435D726EC341C004886EB /* LaunchScreen.storyboard in Resources */,
+				424B487B27BF2D1F004B8F69 /* 1.png in Resources */,
 				41B435D426EC341C004886EB /* Assets.xcassets in Resources */,
 				41B435D226EC341B004886EB /* Main.storyboard in Resources */,
 			);
